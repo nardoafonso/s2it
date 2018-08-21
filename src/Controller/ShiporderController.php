@@ -136,10 +136,6 @@ class ShiporderController extends AbstractController
      * @SWG\Response(
      *     response=200,
      *     description="Returns all shiporder objects",
-     *      @SWG\Schema(
-     *         type="array",
-     *         @SWG\Items(ref=@Model(type=Shiporder::class))
-     *     )
      * )
      */    
     public function getAllShiporder(){
@@ -156,11 +152,7 @@ class ShiporderController extends AbstractController
      * @SWG\Response(
      *     response=200,
      *     description="Returns one shiporder objects",
-     *      @SWG\Schema(
-     *         type="array",
-     *         @SWG\Items(ref=@Model(type=Shiporder::class))
-     *     )
-     * )
+     *)
      * @SWG\Parameter(
      *     name="id",
      *     in="query",
