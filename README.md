@@ -1,5 +1,3 @@
-# S2IT PHP Test
-
 # Requirements
 
 docker version 17.05 or higher
